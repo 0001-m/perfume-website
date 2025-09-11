@@ -3,24 +3,24 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     { 
-      name: "Sarah Mitchell", 
+      name: "Walter White", 
       rating: 5, 
       text: "The craftsmanship in every bottle is extraordinary. Midnight Elegance has become my signature scent - I receive compliments everywhere I go.",
-      location: "New York, NY",
+      location: "Albuquerque, NM",
       verified: true
     },
     { 
-      name: "Michael Rodriguez", 
+      name: "Harry Potter", 
       rating: 5, 
       text: "As someone who collects fine fragrances, I can confidently say  AURA PERFUMES rivals the most prestigious houses. The quality is unmatched.",
-      location: "Los Angeles, CA",
+      location: "Number Four, Privet Drive",
       verified: true
     },
     { 
-      name: "Emma Laurent", 
+      name: "Bruce Wayne", 
       rating: 5, 
       text: "Not only does it smell divine, but the packaging is absolutely stunning. It's luxury you can see, smell, and feel. Worth every penny!",
-      location: "Paris, France",
+      location: "Gotham City",
       verified: true
     }
   ];

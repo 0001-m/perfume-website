@@ -37,20 +37,20 @@ const ContactPage = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      content: 'hello@luxeaura.com',
+      content: 'auraperfumes@gmail.com',
       subContent: 'We typically respond within 24 hours'
     },
     {
       icon: <FaPhone />,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
+      content: '+91 (555) 123-4567',
       subContent: 'Available during business hours'
     },
     {
       icon: <FaMapMarkerAlt />,
       title: 'Address',
       content: '123 Fragrance Avenue',
-      subContent: 'New York, NY 10001'
+      subContent: 'Mumbai, MH 110001'
     },
     {
       icon: <FaClock />,

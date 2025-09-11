@@ -9,7 +9,8 @@ const FeaturedProducts = ({ onAddToCart }) => {
       originalPrice: '$110',
       bestseller: true,
       category: 'Eau de Parfum',
-      description: 'A sophisticated blend of bergamot and black vanilla'
+      description: 'A sophisticated blend of bergamot and black vanilla',
+      image: '/images/p1.jpeg'
     },
     { 
       id: 2, 
@@ -17,7 +18,8 @@ const FeaturedProducts = ({ onAddToCart }) => {
       price: '$95', 
       bestseller: false,
       category: 'Eau de Toilette',
-      description: 'Fresh citrus notes with warm amber undertones'
+      description: 'Fresh citrus notes with warm amber undertones',
+      image: '/images/p2.jpeg'
     },
     { 
       id: 3, 
@@ -26,7 +28,8 @@ const FeaturedProducts = ({ onAddToCart }) => {
       originalPrice: '$95',
       bestseller: true,
       category: 'Eau de Parfum',
-      description: 'Luxurious rose and sandalwood harmony'
+      description: 'Luxurious rose and sandalwood harmony',
+      image: '/images/p3.jpeg'
     },
     { 
       id: 4, 
@@ -34,7 +37,8 @@ const FeaturedProducts = ({ onAddToCart }) => {
       price: '$82', 
       bestseller: false,
       category: 'Eau Fraiche',
-      description: 'Refreshing marine accord with white musk'
+      description: 'Refreshing marine accord with white musk',
+      image: '/images/p4.jpeg'
     }
   ];
 
@@ -47,7 +51,7 @@ const FeaturedProducts = ({ onAddToCart }) => {
             <div key={product.id} className="product-card">
               {product.bestseller && <span className="bestseller-badge">Bestseller</span>}
               <div className="product-image-container">
-                <img src="/images/p8.jpeg" alt={product.name} />
+                <img src={product.image} alt={product.name} />
               </div>
               <div className="product-info">
                 <span className="product-category">{product.category}</span>

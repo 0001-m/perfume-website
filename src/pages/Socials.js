@@ -14,7 +14,7 @@ const SocialsPage = () => {
       icon: <FaFacebookF />,
       description: 'Follow us for daily fragrance tips and behind-the-scenes content from our luxury collection.',
       buttonText: 'Follow on Facebook',
-      url: 'https://facebook.com/auraperfumes',
+      url: 'https://www.facebook.com/profile.php?id=61580889202988',
       color: '#1877F2',
       followers: '12K+'
     },
@@ -23,7 +23,7 @@ const SocialsPage = () => {
       icon: <FaInstagram />,
       description: 'Discover our latest collections, customer stories, and exclusive fragrance photography.',
       buttonText: 'Follow on Instagram',
-      url: 'https://instagram.com/luxeaura',
+      url: 'https://www.instagram.com/aura.perfume27/',
       color: '#E4405F',
       followers: '25K+'
     },
@@ -33,7 +33,7 @@ const SocialsPage = () => {
       icon: <FaPinterest />,
       description: 'Find inspiration with our curated boards of fragrance pairings and luxury lifestyle.',
       buttonText: 'Follow on Pinterest',
-      url: 'https://pinterest.com/luxeaura',
+      url: 'https://www.pinterest.com/perfumeaura827/',
       color: '#BD081C',
       followers: '15K+'
     },
@@ -42,7 +42,7 @@ const SocialsPage = () => {
       icon: <FaYoutube />,
       description: 'Watch exclusive fragrance reviews, tutorials, and behind-the-scenes content.',
       buttonText: 'Subscribe on YouTube',
-      url: 'https://youtube.com/@luxeaura',
+      url: 'https://www.youtube.com/@unveilyouraura',
       color: '#FF0000',
       followers: '18K+'
     },
